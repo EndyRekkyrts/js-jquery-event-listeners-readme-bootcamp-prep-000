@@ -9,7 +9,14 @@ function frameIt() {
     $('img').addClass('tasty')
   })
 }
-
+function pressIt() {
+  $('#typing').on('keydown', function(e) {
+    // 'g' corresponds to 71
+    if (e.which === 71) {
+      alert("You pressed 'g'!")
+    }
+  })
+}
 function pressIt() {
   $('#typing').on('keydown', funcion(key) {
     if(key.which === 71) {
