@@ -6,7 +6,7 @@ function getIt() {
 
 function pressIt() {
   $(document).on('keydown', funcion(key) {
-    if(key.which == G) {
+    if(key.which == 71) {
     alert("You pressed the G key!");
     }
   });
