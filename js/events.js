@@ -17,6 +17,7 @@ function pressIt() {
     }
   })
 }
+/*
 function pressIt() {
   $('#typing').on('keydown', funcion(key) {
     if(key.which === 71) {
@@ -24,7 +25,7 @@ function pressIt() {
     }
   })
 }
-
+*/
 function submitIt() {
   $('form').on('submit', function(submit) {
   alert("Your form is goint to be submitted now");
