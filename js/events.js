@@ -3,8 +3,13 @@ function getIt() {
 }
 
 function pressIt() {
-  $(G).keydown
+  $(document).on('keydown', funcion(key) {
+    if(key.which == G) {
+    alert("You pressed the G key!");)
+    }
 }
+}
+
 //define functions here
 
 $(document).ready(function(){
