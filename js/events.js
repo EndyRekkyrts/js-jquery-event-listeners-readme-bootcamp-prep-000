@@ -17,10 +17,9 @@ function submitIt() {
   alert("Your form is goint to be submitted now");
   })
 }
-//define functions here
 
 $(document).ready(function(){
 
-
+//call functions here
 
 });
