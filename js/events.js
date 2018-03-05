@@ -10,6 +10,10 @@ function pressIt() {
   });
 }
 
+function submitIt() {
+  $(document).on('submit')
+  alert("Your form is goint to be submitted now");
+}
 //define functions here
 
 $(document).ready(function(){
